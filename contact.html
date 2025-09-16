@@ -23,6 +23,36 @@
     <br>
     We look forward to hearing from you and will do our best to respond as soon as possible.
     </p>
+  <form action="#" method="post" title="User Contact Form">
+    <div title="Full Name Field">
+          <label for="fullName">Full Name</label><br>
+          <input type="text" id="fullName" name="fullName" minlength="10" maxlength="100" required pattern="[A-Za-z\s]+">
+      </div>
+      <br>
+      <div title="Email Field">
+          <label for="email">Email</label><br>
+          <input type="email" id="email" name="email" required autocomplete="off">
+      </div>
+      <br>
+      <div title="Mobile Number Field">
+          <label for="mobileNumber">Mobile Number</label><br>
+          <input type="tel" id="mobileNumber" name="mobileNumber" required pattern="^(010|011|012|015)\d{8}$" title="e.g., 01012345678">
+      </div>
+      <br>
+      <div title="Details Field">
+          <label for="message">Complain/Suggestion Details</label><br>
+          <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+      </div>
+      <br>
+      <div title="Attachment Field">
+          <label for="attachment">Attachment</label><br>
+          <input type="file" id="attachment" name="attachment">
+      </div>
+      <br>
+      <input type="submit" value="Submit">
+  </form>
+
+   
 
 
 
